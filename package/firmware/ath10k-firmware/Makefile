@@ -166,14 +166,14 @@ $(Package/ath10k-firmware-default)
   TITLE:=ath10k CT 10.1 firmware for QCA988x devices
   SECTION:=firmware
   CATEGORY:=Firmware
-  PROVIDES:=ath10k-firmware-qca988x
+#PROVIDES:=ath10k-firmware-qca988x
 endef
 define Package/ath10k-firmware-qca988x-ct-htt
 $(Package/ath10k-firmware-default)
   TITLE:=ath10k CT 10.1 htt-mgt fw for QCA988x
   SECTION:=firmware
   CATEGORY:=Firmware
-  PROVIDES:=ath10k-firmware-qca988x
+#PROVIDES:=ath10k-firmware-qca988x
   DEPENDS:=+!PACKAGE_kmod-ath10k-ct-smallbuffers:kmod-ath10k-ct
 endef
 
